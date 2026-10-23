@@ -1,25 +1,37 @@
-# ⏰ Tempo em Movimento
+# Tempo em Movimento
 
-Projeto prático para treinar manipulação do DOM com JavaScript.  
-Exibe o horário atual e altera imagem e mensagem de acordo com o período do dia.
+**HTML · CSS · JavaScript**
 
----
+Exercício que consulta a hora local do computador e adapta a imagem, a mensagem e a cor de fundo da página ao período do dia.
 
-## 🚀 Funcionalidades
-- Mostra a hora em tempo real.
-- Troca a imagem e a mensagem conforme o horário (manhã, tarde, noite).
-- Layout simples e responsivo.
+## Comportamento
 
----
+- Exibe a hora obtida com `Date`.
+- Mostra uma saudação de manhã, tarde ou noite.
+- Alterna imagens e cores conforme o horário.
 
-## 🛠 Tecnologias
-- HTML5
-- CSS3
-- JavaScript (DOM)
+A consulta acontece quando a função `carregar()` é executada. Não há atualização contínua por temporizador no script atual.
 
----
+## Como visualizar
 
-## ▶️ Como executar
-1. Baixe ou clone este repositório:
-   ```bash
-   git clone https://github.com/seuusuario/tempo-em-movimento.git
+```bash
+git clone https://github.com/marcosmaldonadoo/clock.git
+cd clock
+```
+
+Abra `index.html` no navegador. Não há dependências a instalar ou etapa de compilação.
+
+## Estrutura
+
+```text
+index.html
+assets/
+├── img/
+├── js/scripts.js
+└── styles/styles.css
+```
+
+## Aprendizados
+
+Uso de data e hora, condições e atualização de texto, imagens e estilos pelo DOM.
+
